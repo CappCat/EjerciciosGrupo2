@@ -1,0 +1,37 @@
+# .NET build outputs
+**/bin/
+**/obj/
+**/TestResults/
+
+# Visual Studio / VS Code local state
+.vs/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+**/*.rsuser
+
+# NuGet and packaging artifacts
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep generated content out of the repo if it appears under either workspace area
+Ejercicios/**/bin/
+Ejercicios/**/obj/
+Codigo/bin/
+Codigo/obj/
+Codigo/Guion_Exposicion.md
